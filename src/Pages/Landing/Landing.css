@@ -1,0 +1,17 @@
+.main-page {
+  position: relative;
+  top: 80px;
+}
+
+.card-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.empty-tag {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60vh;
+  font-size: 26px;
+}

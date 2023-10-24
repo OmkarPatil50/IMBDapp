@@ -1,0 +1,61 @@
+.moviecard {
+  box-sizing: border-box;
+  width: 270px;
+  height: 400px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.4);
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.moviecard:hover {
+  background-color: var(--lynx-gray-color);
+  transition-duration: 0.3s;
+}
+
+.moviecard-img {
+  width: 150px;
+  height: 225px;
+  justify-self: flex-start;
+}
+
+.moviecard-details {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.moviecard-title {
+  color: var(--primary-color);
+  text-align: center;
+  margin: 0;
+}
+
+.moviecard-summary {
+  color: var(--primary-color);
+  margin: 5px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.moviecard-btn-section {
+  margin: 0;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  margin: 10px;
+}
+.moviecard-btn {
+  padding: 7.5px 15px;
+  border: none;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  cursor: pointer;
+}
+
+.moviecard-btn:hover {
+  opacity: 0.7;
+}
